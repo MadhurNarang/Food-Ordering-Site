@@ -1,0 +1,5 @@
+1. When location access is asked and denied by user then site goes down.
+
+2. Login Issue is there.
+
+3. External API is being used to avoid CORS error.
