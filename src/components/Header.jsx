@@ -52,7 +52,7 @@ const Header = () => {
         {isLocationModalOpen ? <LocationModal /> : null}
 
         <ul className='text-zinc-700 ml-auto gap-2 md:gap-4 items-center hidden md:flex'>
-          <li>
+          {/* <li>
             <Link
               to='/search'
               className='p-2 md:px-4 hover:bg-gray-50 rounded-md flex items-center gap-2'
@@ -60,7 +60,7 @@ const Header = () => {
               <MagnifyingGlassIcon className='w-4 h-4 text-gray-700' />{' '}
               <p className='hidden md:block'>Search</p>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to='/'
@@ -103,7 +103,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        {isLoading ? null : isAuthenticated ? (
+        {/* {isLoading ? null : isAuthenticated ? (
           <button
             onClick={() => loginWithRedirect()}
             className='ml-4 bg-orange-400 text-white p-2 px-4 rounded-md items-center gap-2 hidden md:flex'
@@ -117,7 +117,7 @@ const Header = () => {
           >
             Login
           </button>
-        )}
+        )} */}
 
         {!isMenuOpen ? (
           <div className='shadow-lg transition-all fixed top-full -right-[100%] bg-white h-screen p-4 px-8'>

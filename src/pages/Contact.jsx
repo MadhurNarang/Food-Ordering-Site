@@ -2,7 +2,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 const details = {
   name: 'Madhur Narang',
-  bio: 'FullStack Developer',
+  bio: 'Software Developer',
   contact: {
     email: 'madhur.narang.official@gmail.com',
     github: 'https://github.com/MadhurNarang',

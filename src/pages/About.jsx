@@ -33,7 +33,7 @@ class About extends React.Component {
             Foody is a food ordering web application built with React.js ⚛ and
             Swiggy's API.
           </p>
-          <p>
+          {/* <p>
             This project was built 🔧 during the coursework of{' '}
             <a
               className='text-orange-600'
@@ -51,8 +51,8 @@ class About extends React.Component {
           </p>
 
           <p>count1 : {this.state.count}</p>
-          <p>count2 : {this.state.count2}</p>
-          <button
+          <p>count2 : {this.state.count2}</p> */}
+          {/* <button
             className='border my-2 bg-gray-50 p-2 px-4 rounded-md'
             onClick={() => {
               this.setState({
@@ -61,7 +61,7 @@ class About extends React.Component {
             }}
           >
             click me
-          </button>
+          </button> */}
         </div>
       </div>
     );
